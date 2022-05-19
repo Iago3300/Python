@@ -1,0 +1,61 @@
+print = imprime no console
+
+fstring (f" ") = string formatada que permite carregar variaveis do seu script
+
+\n = quebra de linha
+
+end=' ' = cada print termina com \n padrão, então (end=' ') impede a quebra linha
+
+input() = recebe a entrada de informações de alguém
+
+def = Cria uma função
+
+return = retorna o valor de uma função a variável
+
+write = comando pra escrever algo
+
+truncate = comando para esvaziar um arquivo
+
+read = comando para ler todo um arquivo
+
+readline = comando para ler uma linha de um arquivo
+
+seek() = comando para mover o local de leitura baseado no bit do arquivo
+(0) sendo o primeiro caractere do arquivo.
+
+close = fecha o arquivo
+
+int() = converte números de forma de texto(string) para números inteiros.
+float() = mesmo coisa só para que números flutuantes.
+
+***********************************************************************
+. = o ponto é um comando que você dá pra interagir com uma informação X
+
+por exemplo, tenho um arquivo chamado teste.txt e quero escrever dentro desse
+arquivo.
+
+filename = teste.txt > Carrega o arquivo txt no script
+
+txt = open(filename) > atribui a variavel txt ao arquivo teste.txt
+print(txt.read()) > dá o comando pra txt(teste.txt) ser lido pelo python
+e impresso no console
+
+***********************************************************************
+
+import = você importa recursos, ou seja, carrega scripts prontos para dentro do
+seu próprio script.
+
+***********************************************************************
+argv = **pelo o que entendi, é um array que armazena variaveis que você passa
+para o programa( nomeDoPrograma, variavel1, variavel2.....)
+
+*args = é a mesma coisa de cima só que para ser usada em funções, aceita múltiplos
+argumentos(não é muito usado aparentemente)
+
+def Bacalhau(*args):        > criei a função chamada bacalhau
+      arg1, arg2 = args
+      print(f"Argumento 1:{arg1}, Argumento 2: {arg2}")
+
+Bacalhau("Teste1", "Teste 2")   > chamei a função bacalhau e mandei 2 argumentos pra ela.
+        arg1        arg2
+***********************************************************************

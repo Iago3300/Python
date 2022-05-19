@@ -1,0 +1,26 @@
+# Crie uma classe chamada ??? que é-um Y.
+class Pokimane(Y):
+
+# A classe ??? tem-um __init__ que recebe os parametros self e ???
+
+class PewDiePie(object):
+    def __init__ (self, felix):
+        #código....
+
+# A classe ??? tem-uma função chamada ??? que recebe os parametros self e ???
+
+class Mrbeast(object):
+    def money(self, dolar):
+        k = 0
+
+# Define ??? como uma instancia da classe ???
+
+sub = Mrbeast()
+
+# A partir de ??? obtem a funcção ??? e chama-a com parametros self = ??? e ???
+
+sub.money(dolar)
+
+# A partir de ???, obtem o atributo ??? e define-o como ???
+
+sub.k = 1
